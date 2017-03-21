@@ -1,0 +1,7 @@
+\chapter{Conclusion}
+\label{cha4}
+\chaptermark{Conclusion}
+In this thesis we studied the 
+This thesis has two main contributions. First, an accurate depth map upsampling algorithm is proposed. This method is based on local linear fitting and utilizes the color information to improve the edge quality. We also propose a memory saving implementation to solve the optimization problem. Second, we using RGB-D images to construct an outdoor scene dataset, \emph{HazeRD}, and the benchmarking for dehazing algorithms. Compared to existing dataset, HazeRD provides outdoor scenes instead of indoor scenes, which is the typical conditions for the application of dehazing algorithm, and ground truth of high accuracy. 
+
+The work in this thesis also has some limitations. The proposed depth upsampling algorithm is extremely time consuming compared to naive methods such as bilinear or bicubic interpolation. In future work, one direction is to use parallel techniques to accelerate the computing. Besides, the benchmarking results of state of art dehazing algorithms indicates that the main bottleneck lies in the consistency of the estimated transmission of the same objects. In future work, new dehazing algorithms combining image segmentation algorithms should be considered. 
